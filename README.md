@@ -1,5 +1,5 @@
 # lua-json-config
-Make .json configs in Lua
+Make .json configs in Lua!  
 Works with [MoonLoader](https://www.blast.hk/threads/13305/) or LuaJit + [json.lua](https://github.com/rxi/json.lua) only!
 
 ## Usage
