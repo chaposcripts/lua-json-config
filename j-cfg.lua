@@ -118,7 +118,7 @@ function Json(file, default)
             end
         end,
         __index = function(self, key)
-            return key and json[key] or json;
+            return (not key and json or json[key]);
         end,
         __newindex =  function(self, key, val)
             json[key] = val;
